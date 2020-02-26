@@ -34,3 +34,9 @@ Listening on a eventbus for http requests process them create response
 # Scenario 2
 Listening on http2 and execute function by request url
 
+# Importent Notes about NodeJS MPM
+1. Cluster listining in master can lead to better cpu util
+2. Cluster listining in woker should be more performant but needs OS Level tuning
+3. ker THs are only usefull when you can use shared memory with master. Scales better for less util functions.
+
+Good thing is 1. 2. need no code change only the method changes from cluster fork to new worker
