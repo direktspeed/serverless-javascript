@@ -1,4 +1,13 @@
-# serverless-javascript
+# serverless-javascript v2 based on Stealify - REiDEEN Release
+The Overall Architecture or how we builded the fastest serverless production framework in the world.
+
+## Ingreedents
+Graal Compiler
+Truffle Framework as absraction over ECMAScript2020
+Couchbase Java 3.0 SDK DCP-Client
+vertx JavaScript Bindings.
+
+# serverless-javascript v1 
 Serverless JavaScript
 
 because i always repeated the server parts of my applications i need to source that out.
